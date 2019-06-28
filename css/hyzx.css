@@ -57,5 +57,46 @@ html {
       color: white;
     background-color: #cf102b;
   }
+  element.style {
+  }
+  .mt_box_1, .mt_box_2, .mt_box_3, .mt_box_4 {
+      overflow: hidden;
+      padding-top: 33px;
+  }
+  user agent stylesheet
+  div {
+      display: block;
+  }
+  user agent stylesheet
+  a:-webkit-any-link {
+      color: -webkit-link;
+      cursor: pointer;
+      text-decoration: underline;
+  }
+  user agent stylesheet
+  li {
+      display: list-item;
+      text-align: -webkit-match-parent;
+  }
+  ul, ol {
+      list-style: none;
+  }
+  user agent stylesheet
+  ul, menu, dir {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  body, button, input, select, textarea {
+      font: 12px/1.5 'Microsoft Yahei',STHeiti,sans-serif,"宋体",Simsun,"Arial Unicode MS",Mingliu,Helvetica;
+      color: #555;
+      -webkit-text-size-adjust: none;
+  }
+   
+
   
 
