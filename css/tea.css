@@ -12,7 +12,7 @@ ul,h1,h2,h3 {
   }
   /*快捷导航*/
   .fast_nav {
-    font-size: 18px;
+    font-size: 15px;
     background: #ffffff;
   }
   .fast_nav> .wrapper::after {
@@ -22,41 +22,40 @@ ul,h1,h2,h3 {
   }
   .fast_nav .nav >ul > li{
     float: left;
-    width: 120px;
+    width: 100px;
     text-align: center;
-    line-height: 4em;
+    line-height: 3em;
     cursor: pointer;
+    border-right: 1px solid #ededed;
   }
   .fast_nav .nav >ul > li:hover {
-    color: red;
+    color:white;
+    background-color: #af0d10;
+  }
+  .fast_nav .nav>ul>li:nth-child(1) {
+      color: #000;
+      line-height: 1.8em;
+      font-size: 25px;
+      font-weight:bold;
+      width: 300px;
+      background-color:white;
+    border-right: 1px solid #ededed;
   }
   /*底部开始*/
-  .red_line {
-    height: 4px;
-    background: #af0d10;
-}
-.footer {
-    background: #1f1510;
-}
 .web_map {
+    float: left;
     width: 1000px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color:  #1f1510;
 }
 dt {
+    float: left;
     display: block;
 }
 dl {
     display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    float: left;
 }
 dd {
+    float: left;
     display: block;
-    -webkit-margin-start: 40px;
 }
