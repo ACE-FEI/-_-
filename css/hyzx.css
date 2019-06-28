@@ -126,7 +126,7 @@ body, button, input, select, textarea {
   float: left;
   height: 109px;
   overflow: hidden;
-  position: relative;
+  position: relative；
 }
 .m_bre {
   width: 250px;
