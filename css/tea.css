@@ -1,0 +1,61 @@
+html {
+    font-size: 14px;
+    color: #333333;
+}
+body {
+    margin: 0;
+}
+ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  /*快捷导航*/
+  .fast_nav {
+    font-size: 15px;
+    background: #ffffff;
+  }
+  .fast_nav> .wrapper::after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+  .fast_nav .nav >ul > li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 3em;
+    cursor: pointer;
+    border-right: 1px solid #ededed;
+  }
+  .fast_nav .nav >ul > li:hover {
+    color:white;
+    background-color: #af0d10;
+  }
+  .fast_nav .nav>ul>li:nth-child(1) {
+      color: #000;
+      line-height: 1.8em;
+      font-size: 25px;
+      font-weight:bold;
+      width: 300px;
+      background-color:white;
+    border-right: 1px solid #ededed;
+  }
+  /*底部开始*/
+.web_map {
+    float: left;
+    width: 1000px;
+    background-color:  #1f1510;
+}
+dt {
+    float: left;
+    display: block;
+}
+dl {
+    display: block;
+    float: left;
+}
+dd {
+    float: left;
+    display: block;
+}
