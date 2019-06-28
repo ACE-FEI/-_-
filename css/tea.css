@@ -22,3 +22,8 @@ style.css:22
 ul, ol {
     list-style: none;
 }
+.nav .li {
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ede7d8;
+}
