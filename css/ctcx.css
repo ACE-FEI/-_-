@@ -32,31 +32,27 @@
     display: block;
     clear: both;
   }
-  .fast_nav .logo{
-    display: inline-block;
+  .fast_nav.nav{
     float: left;
-    font-size: 25px;
-    color: #6d6458;
-    font-weight: bold;
-    width: 200px;
+  }
+  .fast_nav .nav>ul>li{
+    float: left;
+    line-height: 3em;
+    width: 100px;
     border-right: 1px solid #ede7d8;
     text-align: center;
-  }
-  .nav >ul > li{
-    float: left;
-    width: 100px;
-    text-align: center;
-    line-height: 3em;
     cursor: pointer;
-    color: #cac78b;
-    border-right: 1px soild #ede7d8;
   }
   .fast_nav .nav >ul > li:hover {
+    background-color: #af0d10;
     color: #279f5a;
   }
   .fast_nav .other>span:nth-child(1) {
-    padding: 0 10px;
-    border-right: 1px solid #ededed;
+    width: 250px;
+    line-height: 1.1em
+    color：#000;
+    background-color：white；
+    border-right: 1px soild #ede7d8;
   }
   /* 图片 */
   .tupian{
@@ -65,44 +61,46 @@
     margin: 0 auto;
     background: #fff;
   }
- /* 餐饮时间开始 */
- .meal_time{
-   width: 50px; 
-   border-bottom: #333333;
- }
- .meal_time >.meal_info::after{
-   content:"";
-   display: block;
-   clear: both;
- }
- .meal_time.logo{
-  display: inline-block;
-  float: left;
-  font-size: 25px;
-  color: #6d6458;
-  font-weight: bold;
-  width: 200px;
-  border-right: 1px solid #ede7d8;
-  text-align: center;
- }
- .meal_time>.meal_info>h3{
-  float: left;
-  width: 100px;
-  text-align: center;
-  line-height: 3em;
-  cursor: pointer;
-  color: #cac78b;
-  border-right: 1px soild #ede7d8;
- }
- .meal_time>.meal_info>h3.hover{
-  color: #279f5a;
- }
- .meal_time.other>span:nth-child(1) {
-  padding: 0 10px;
-  border-right: 1px solid #ededed;
+ /*底部开始*/
+.line {
+  height: 4px;
+  background: #af0d10;
 }
 
-
-
- 
-
+.footer {
+  background: #1f1510;
+}
+.web_map {
+  width: 1500px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.web_map dl {
+  float: left;
+}
+.footer dt {
+  color: #fff;
+  font: bold 12px/24px "宋体";
+}
+.copy_right {
+  text-align: center;
+  color: #d2d0cf;
+  font: 12px/31px "宋体";
+  border-top: 1px solid #403834;
+}
+.web_map dl {
+  float: left;
+}
+.warp_middle{
+  font-size: 12px;
+}
+.footer dd {
+  margin-left: 0;
+  padding-left: 0;
+  color: #d2d0cf;
+  font: 12px/24px "宋体";
+  cursor: pointer;
+ }
