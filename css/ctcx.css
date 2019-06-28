@@ -1,0 +1,108 @@
+/* 重置样式 */
+.fast_nav{
+    font-size: 13px;
+    color: #333333;
+  }
+  body{
+    margin: 0;
+  }
+  ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  /* 快捷导航 */
+  .fast_nav {
+    font-size: 13px;
+    border-bottom:#ffffff;
+  }
+  .fast_nav> .wrapper::after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+  .fast_nav .logo{
+    display: inline-block;
+    float: left;
+    font-size: 25px;
+    color: #6d6458;
+    font-weight: bold;
+    width: 200px;
+    border-right: 1px solid #ede7d8;
+    text-align: center;
+  }
+  .nav >ul > li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 3em;
+    cursor: pointer;
+    color: #cac78b;
+    border-right: 1px soild #ede7d8;
+  }
+  .fast_nav .nav >ul > li:hover {
+    color: #279f5a;
+  }
+  .fast_nav .other>span:nth-child(1) {
+    padding: 0 10px;
+    border-right: 1px solid #ededed;
+  }
+  /* 图片 */
+  .tupian{
+    margin: 0 20px;
+    padding:0 90px;
+    margin: 0 auto;
+    background: #fff;
+  }
+ /* 餐饮时间开始 */
+ .meal_time{
+   width: 50px; 
+   border-bottom: #333333;
+ }
+ .meal_time >.meal_info::after{
+   content:"";
+   display: block;
+   clear: both;
+ }
+ .meal_time.logo{
+  display: inline-block;
+  float: left;
+  font-size: 25px;
+  color: #6d6458;
+  font-weight: bold;
+  width: 200px;
+  border-right: 1px solid #ede7d8;
+  text-align: center;
+ }
+ .meal_time>.meal_info>h3{
+  float: left;
+  width: 100px;
+  text-align: center;
+  line-height: 3em;
+  cursor: pointer;
+  color: #cac78b;
+  border-right: 1px soild #ede7d8;
+ }
+ .meal_time>.meal_info>h3.hover{
+  color: #279f5a;
+ }
+ .meal_time.other>span:nth-child(1) {
+  padding: 0 10px;
+  border-right: 1px solid #ededed;
+}
+
+
+
+ 
+
