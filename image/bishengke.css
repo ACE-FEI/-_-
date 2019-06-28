@@ -1,14 +1,4 @@
-html {
-    font-size: 14px;
-    color: #6d6458;
-}
-body {
-    margin: 0;
-}
-ul,h1,h2,h3 {
-    margin: 0;
-    padding: 0;
-}
+
 ul {
     list-style: none;
 }
