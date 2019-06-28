@@ -1,0 +1,24 @@
+html {
+    font-size: 14px;
+    color: #333333;
+}
+body {
+    margin: 0;
+}
+ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+  }
+  /*快捷导航*/
+  div {
+    display: block;
+}
+.nav {
+    width: 1000px;
+    margin: 0 auto;
+    height: 45px;
+}
+style.css:22
+ul, ol {
+    list-style: none;
+}
