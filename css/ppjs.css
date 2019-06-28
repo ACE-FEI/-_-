@@ -32,19 +32,17 @@ a {
       clear: both;
   }
   .fast_nav .logo {
-    display: inline-block;
+   
+    
     float: left;
-    font-size: 25px;
-    color: #6d6458;
-    font-weight: bold;
+    
     width: 300px;
     border-right :1px solid #ede7d8;
-    text-align: center;
+     margin-left: 100px;
     line-height: 1.8em;
   }
-
- 
-   .nav >ul > li{
+    
+  .nav >ul > li{
     float: left;
     width: 100px;
     text-align: center;
@@ -54,7 +52,8 @@ a {
     border-right :1px solid #ede7d8;
   }
   .fast_nav .nav >ul > li:hover {
-    color: red;
+    color: white;
+    background: #af0d10;
   }
   /*内容*/
   .memorabilia_main{
@@ -69,7 +68,7 @@ a {
     margin-left: 100px;
 }
 .men_con h2 {
-  font-size: 30px;
+  font: 25px/40px 'Microsoft Yahei',STHeiti,"sans-serif";
   color: #d21b17;
   padding-bottom: 10px;
 }
@@ -81,7 +80,7 @@ a {
   width: 407px;
 }
 .date_years h3 {
-  font-size: 50px;
+  font: 48px/50px 'Microsoft Yahei',STHeiti,"sans-serif";
   color: #7d3d16;
   padding-right: 24px;
 }
@@ -116,7 +115,7 @@ img {
   width: 136px;
 }
 /*底部开始*/
-.red_line {
+.line {
   height: 4px;
   background: #af0d10;
 }
@@ -125,10 +124,10 @@ img {
   background: #1f1510;
 }
 .web_map {
-  width: 1000px;
+  width: 1500px;
   margin: 0 auto;
   overflow: hidden;
-  padding-left: 10px;
+  padding-left: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -139,12 +138,6 @@ img {
   color: #fff;
   font: bold 12px/24px "宋体";
 }
-.footer dd a {
-  color: #d2d0cf;
-  font: 12px/24px "宋体";
-  position: relative;
-}
-
 .copy_right {
   text-align: center;
   color: #d2d0cf;
@@ -157,3 +150,11 @@ img {
 .warp_middle{
   font-size: 12px;
 }
+.footer dd {
+  margin-left: 0;
+  padding-left: 0;
+  color: #d2d0cf;
+  font: 12px/24px "宋体";
+  cursor: pointer;
+ }
+ 
