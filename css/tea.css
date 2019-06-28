@@ -19,7 +19,7 @@ ul,h1,h2,h3 {
     height: 45px;
 }
 style.css:22
-ul, ol {
+ul {
     list-style: none;
 }
 .nav .li {
