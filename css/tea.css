@@ -8,22 +8,55 @@ body {
 ul,h1,h2,h3 {
     margin: 0;
     padding: 0;
+    list-style: none;
   }
   /*快捷导航*/
-  div {
+  .fast_nav {
+    font-size: 18px;
+    background: #ffffff;
+  }
+  .fast_nav> .wrapper::after {
+    content:"";
     display: block;
+    clear: both;
+  }
+  .fast_nav .nav >ul > li{
+    float: left;
+    width: 120px;
+    text-align: center;
+    line-height: 4em;
+    cursor: pointer;
+  }
+  .fast_nav .nav >ul > li:hover {
+    color: red;
+  }
+  /*底部开始*/
+  .red_line {
+    height: 4px;
+    background: #af0d10;
 }
-.nav {
+.footer {
+    background: #1f1510;
+}
+.web_map {
     width: 1000px;
     margin: 0 auto;
-    height: 45px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-style.css:22
-ul {
-    list-style: none;
+dt {
+    display: block;
 }
-.nav .li {
-    float: left;
-    text-align: center;
-    border-right: 1px solid #ede7d8;
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+dd {
+    display: block;
+    -webkit-margin-start: 40px;
 }
